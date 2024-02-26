@@ -20,10 +20,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="w-full min-h-dvh max-w-sm mx-auto bg-gray-500">
+        <div className="w-full min-h-dvh max-w-md mx-auto bg-gray-500">
           {children}
 
-          <div className="absolute bottom-0 max-w-sm w-full">
+          <div className="absolute bottom-0 max-w-md w-full">
             <Navbar />
           </div>
         </div>
