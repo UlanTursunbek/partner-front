@@ -1,6 +1,7 @@
-import { LINKS } from "@/shared/constants/links";
-import Link from "next/link";
-import { Fragment } from "react";
+import { Fragment } from "react"
+import Link from "next/link"
+
+import { LINKS } from "@/shared/constants/links"
 
 export const Navbar = () => {
   return (
@@ -17,5 +18,5 @@ export const Navbar = () => {
         </Fragment>
       ))}
     </div>
-  );
-};
+  )
+}
