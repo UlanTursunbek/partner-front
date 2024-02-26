@@ -1,5 +1,5 @@
-import { MainPage } from "@/screens/Main";
+import { MainPage } from "@/screens"
 
 export default function Home() {
-  return <MainPage />;
+  return <MainPage />
 }
